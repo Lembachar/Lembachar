@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="330" viewBox="0 0 580 330" role="img" aria-label="NeuroSentry - Medical imaging · head CT">
+  <title>NeuroSentry - Medical imaging · head CT</title>
+  <defs>
+    <linearGradient id="accc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glowc" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="gridc" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect x="0.5" y="0.5" width="579" height="329" rx="16" fill="#161b22" stroke="#30363d"/>
+  <rect x="1" y="1" width="578" height="3" rx="1.5" fill="url(#accc)"/>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+    <text x="28" y="52" font-size="13" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" fill="#22d3ee" letter-spacing="1">MEDICAL IMAGING · HEAD CT</text>
+    <text x="28" y="88" font-size="27" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">NeuroSentry</text>
+    <rect x="433" y="34" width="119" height="26" rx="13" fill="none" stroke="#d29922"/>
+    <circle cx="447" cy="47" r="4" fill="#d29922"/>
+    <text x="457" y="51.5" font-size="13" fill="#d29922">In progress</text>
+    <text x="28" y="124" font-size="15.5" fill="#8b949e">Detects intracranial hemorrhage on non-contrast head CT. DICOM</text><text x="28" y="148" font-size="15.5" fill="#8b949e">loading, series selection and 3-window preprocessing feed a</text><text x="28" y="172" font-size="15.5" fill="#8b949e">DenseNet-121 scan-level baseline, trained on the CQ500 dataset.</text>
+    <line x1="28" y1="216" x2="552" y2="186" stroke="#30363d"/>
+    <text x="28" y="252" font-size="22" font-weight="700" fill="#e6edf3">491</text><text x="28" y="272" font-size="13" fill="#8b949e">CT scans (CQ500)</text><text x="214" y="252" font-size="22" font-weight="700" fill="#e6edf3">0.94</text><text x="214" y="272" font-size="13" fill="#8b949e">target AUC</text><text x="400" y="252" font-size="22" font-weight="700" fill="#e6edf3">4</text><text x="400" y="272" font-size="13" fill="#8b949e">sprints, team of 4</text>
+    <g font-size="12.5"><rect x="28" y="290" width="69" height="24" rx="12.0" fill="#1f2937" stroke="#30363d"/><text x="62.5" y="306.375" text-anchor="middle" fill="#c9d1d9" font-size="12.5">PyTorch</text><rect x="107" y="290" width="69" height="24" rx="12.0" fill="#1f2937" stroke="#30363d"/><text x="141.5" y="306.375" text-anchor="middle" fill="#c9d1d9" font-size="12.5">pydicom</text><rect x="186" y="290" width="104" height="24" rx="12.0" fill="#1f2937" stroke="#30363d"/><text x="238.0" y="306.375" text-anchor="middle" fill="#c9d1d9" font-size="12.5">DenseNet-121</text><rect x="300" y="290" width="104" height="24" rx="12.0" fill="#1f2937" stroke="#30363d"/><text x="352.0" y="306.375" text-anchor="middle" fill="#c9d1d9" font-size="12.5">Hugging Face</text><rect x="414" y="290" width="55" height="24" rx="12.0" fill="#1f2937" stroke="#30363d"/><text x="441.5" y="306.375" text-anchor="middle" fill="#c9d1d9" font-size="12.5">Colab</text></g>
+  </g>
+</svg>

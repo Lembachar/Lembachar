@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="330" viewBox="0 0 580 330" role="img" aria-label="Breast Cancer on EMBED - Research · team lead">
+  <title>Breast Cancer on EMBED - Research · team lead</title>
+  <defs>
+    <linearGradient id="accc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <radialGradient id="glowc" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4f46e5" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#4f46e5" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="gridc" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#eaeef2" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect x="0.5" y="0.5" width="579" height="329" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect x="1" y="1" width="578" height="3" rx="1.5" fill="url(#accc)"/>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+    <text x="28" y="52" font-size="13" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" fill="#0891b2" letter-spacing="1">RESEARCH · TEAM LEAD</text>
+    <text x="28" y="88" font-size="27" font-weight="700" fill="#1f2328" letter-spacing="-0.5">Breast Cancer on EMBED</text>
+    <rect x="456" y="34" width="96" height="26" rx="13" fill="none" stroke="#1a7f37"/>
+    <circle cx="470" cy="47" r="4" fill="#1a7f37"/>
+    <text x="480" y="51.5" font-size="13" fill="#1a7f37">Complete</text>
+    <text x="28" y="124" font-size="15.5" fill="#59636e">Malignant vs. benign classification on biopsy-confirmed mammograms</text><text x="28" y="148" font-size="15.5" fill="#59636e">from the Emory EMBED dataset, with patient-level 5-fold CV, a locked</text><text x="28" y="172" font-size="15.5" fill="#59636e">test set, bootstrap CIs, Grad-CAM and a shortcut-learning audit.</text>
+    <line x1="28" y1="216" x2="552" y2="186" stroke="#d0d7de"/>
+    <text x="28" y="252" font-size="22" font-weight="700" fill="#1f2328">0.826</text><text x="28" y="272" font-size="13" fill="#59636e">test AUC</text><text x="214" y="252" font-size="22" font-weight="700" fill="#1f2328">1,757</text><text x="214" y="272" font-size="13" fill="#59636e">exams, 1,513 patients</text><text x="400" y="252" font-size="22" font-weight="700" fill="#1f2328">336</text><text x="400" y="272" font-size="13" fill="#59636e">files hash-verified</text>
+    <g font-size="12.5"><rect x="28" y="290" width="69" height="24" rx="12.0" fill="#eef1f5" stroke="#d0d7de"/><text x="62.5" y="306.375" text-anchor="middle" fill="#24292f" font-size="12.5">PyTorch</text><rect x="107" y="290" width="76" height="24" rx="12.0" fill="#eef1f5" stroke="#d0d7de"/><text x="145.0" y="306.375" text-anchor="middle" fill="#24292f" font-size="12.5">ConvNeXt</text><rect x="193" y="290" width="118" height="24" rx="12.0" fill="#eef1f5" stroke="#d0d7de"/><text x="252.0" y="306.375" text-anchor="middle" fill="#24292f" font-size="12.5">EfficientNetV2</text><rect x="321" y="290" width="76" height="24" rx="12.0" fill="#eef1f5" stroke="#d0d7de"/><text x="359.0" y="306.375" text-anchor="middle" fill="#24292f" font-size="12.5">Grad-CAM</text><rect x="407" y="290" width="62" height="24" rx="12.0" fill="#eef1f5" stroke="#d0d7de"/><text x="438.0" y="306.375" text-anchor="middle" fill="#24292f" font-size="12.5">Kaggle</text></g>
+  </g>
+</svg>

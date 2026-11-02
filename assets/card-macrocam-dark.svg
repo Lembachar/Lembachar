@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="330" viewBox="0 0 580 330" role="img" aria-label="MacroCam - AI food scanner · PWA">
+  <title>MacroCam - AI food scanner · PWA</title>
+  <defs>
+    <linearGradient id="accc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glowc" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="gridc" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect x="0.5" y="0.5" width="579" height="329" rx="16" fill="#161b22" stroke="#30363d"/>
+  <rect x="1" y="1" width="578" height="3" rx="1.5" fill="url(#accc)"/>
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+    <text x="28" y="52" font-size="13" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" fill="#22d3ee" letter-spacing="1">AI FOOD SCANNER · PWA</text>
+    <text x="28" y="88" font-size="27" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">MacroCam</text>
+    <rect x="487" y="34" width="65" height="26" rx="13" fill="none" stroke="#3fb950"/>
+    <circle cx="501" cy="47" r="4" fill="#3fb950"/>
+    <text x="511" y="51.5" font-size="13" fill="#3fb950">Live</text>
+    <text x="28" y="124" font-size="15.5" fill="#8b949e">Snap a meal and get calories, macros and micronutrients in seconds.</text><text x="28" y="148" font-size="15.5" fill="#8b949e">Gemini vision with a 3-model fallback, Groq Llama 3.3 meal planner,</text><text x="28" y="172" font-size="15.5" fill="#8b949e">barcode lookup, and a serverless proxy that keeps API keys off the</text><text x="28" y="196" font-size="15.5" fill="#8b949e">client.</text>
+    <line x1="28" y1="216" x2="552" y2="186" stroke="#30363d"/>
+    <text x="28" y="252" font-size="22" font-weight="700" fill="#e6edf3">41+</text><text x="28" y="272" font-size="13" fill="#8b949e">users, 10+ countries</text><text x="214" y="252" font-size="22" font-weight="700" fill="#e6edf3">97 / 100</text><text x="214" y="272" font-size="13" fill="#8b949e">Lighthouse perf / SEO</text><text x="400" y="252" font-size="22" font-weight="700" fill="#e6edf3">3</text><text x="400" y="272" font-size="13" fill="#8b949e">model fallback chain</text>
+    <g font-size="12.5"><rect x="28" y="290" width="90" height="24" rx="12.0" fill="#1f2937" stroke="#30363d"/><text x="73.0" y="306.375" text-anchor="middle" fill="#c9d1d9" font-size="12.5">JavaScript</text><rect x="128" y="290" width="62" height="24" rx="12.0" fill="#1f2937" stroke="#30363d"/><text x="159.0" y="306.375" text-anchor="middle" fill="#c9d1d9" font-size="12.5">Gemini</text><rect x="200" y="290" width="48" height="24" rx="12.0" fill="#1f2937" stroke="#30363d"/><text x="224.0" y="306.375" text-anchor="middle" fill="#c9d1d9" font-size="12.5">Groq</text><rect x="258" y="290" width="139" height="24" rx="12.0" fill="#1f2937" stroke="#30363d"/><text x="327.5" y="306.375" text-anchor="middle" fill="#c9d1d9" font-size="12.5">Netlify Functions</text><rect x="407" y="290" width="41" height="24" rx="12.0" fill="#1f2937" stroke="#30363d"/><text x="427.5" y="306.375" text-anchor="middle" fill="#c9d1d9" font-size="12.5">PWA</text></g>
+  </g>
+</svg>
