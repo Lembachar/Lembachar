@@ -55,8 +55,8 @@ I build production web software and run applied deep-learning research. I'm a fi
 Malignant vs. benign on 1,757 biopsy-confirmed exams from 1,513 patients. ResNet-50, EfficientNetV2-S and ConvNeXt-Tiny with patient-level 5-fold cross-validation and a locked test set. Test AUC went from 0.776 (images only) to **0.826 (95% CI 0.779–0.872)** with clinical context. Also found an exam-type shortcut in the BI-RADS task, and ran marker-inpainting and Grad-CAM checks. Results and figures, including de-identified mammograms, are published with written approval from Dr. Hari Trivedi, Co-director of the Emory HITI Lab, which maintains the EMBED dataset.
 
 <a id="neurosentry"></a>
-**NeuroSentry: intracranial hemorrhage detection on head CT** · *team of four, in progress*\
-Scan-level classifier on the CQ500 dataset (491 non-contrast head CTs, three-radiologist consensus labels). The pipeline (DICOM loading, series selection, three-window preprocessing, DenseNet-121 baseline) is validated end to end. Target: AUC ≥ 0.94 with 5-fold cross-validation, then external validation. Repository is private until the team publishes.
+**NeuroSentry: intracranial hemorrhage detection on head CT** · *phase 1 · paused*\
+The team's first medical-imaging project, on the CQ500 dataset (491 non-contrast head CTs with three-radiologist labels). We built and validated the full pipeline (DICOM loading, series selection, three-window preprocessing, DenseNet-121 baseline), then carried the same methods into phase 2, the EMBED mammography study above.
 
 ### Toolbox
 
