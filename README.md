@@ -27,7 +27,7 @@ I build production web software and run applied deep-learning research. I'm a fi
 <p>
   <a href="https://github.com/Lembachar/macrocam"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-macrocam-dark.svg"><img alt="MacroCam — AI food scanner PWA" src="assets/card-macrocam-light.svg" width="49%"></picture></a>
   <a href="https://github.com/Lembachar/embed-breast-cancer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-embed-dark.svg"><img alt="Breast cancer classification on EMBED — research" src="assets/card-embed-light.svg" width="49%"></picture></a>
-  <a href="#neurosentry"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-neurosentry-dark.svg"><img alt="NeuroSentry — hemorrhage detection on head CT" src="assets/card-neurosentry-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/Lembachar/NeuroSentry"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-neurosentry-dark.svg"><img alt="NeuroSentry — hemorrhage detection on head CT" src="assets/card-neurosentry-light.svg" width="49%"></picture></a>
   <a href="https://github.com/Lembachar/football"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-football-dark.svg"><img alt="Football Data — Flask web app" src="assets/card-football-light.svg" width="49%"></picture></a>
 </p>
 
@@ -55,7 +55,7 @@ I build production web software and run applied deep-learning research. I'm a fi
 Malignant vs. benign on 1,757 biopsy-confirmed exams from 1,513 patients. ResNet-50, EfficientNetV2-S and ConvNeXt-Tiny with patient-level 5-fold cross-validation and a locked test set. Test AUC went from 0.776 (images only) to **0.826 (95% CI 0.779–0.872)** with clinical context. Also found an exam-type shortcut in the BI-RADS task, and ran marker-inpainting and Grad-CAM checks. Results and figures, including de-identified mammograms, are published with written approval from Dr. Hari Trivedi, Co-director of the Emory HITI Lab, which maintains the EMBED dataset.
 
 <a id="neurosentry"></a>
-**NeuroSentry: intracranial hemorrhage detection on head CT** · *phase 1 · paused*\
+**[NeuroSentry](https://github.com/Lembachar/NeuroSentry): intracranial hemorrhage detection on head CT** · *phase 1 · paused*\
 The team's first medical-imaging project, on the CQ500 dataset (491 non-contrast head CTs with three-radiologist labels). We built and validated the full pipeline (DICOM loading, series selection, three-window preprocessing, DenseNet-121 baseline), then carried the same methods into phase 2, the EMBED mammography study above.
 
 ### Toolbox
