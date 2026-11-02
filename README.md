@@ -52,7 +52,7 @@ I build production web software and run applied deep-learning research. I'm a fi
 ### Research
 
 **[Breast cancer classification on EMBED](https://github.com/Lembachar/embed-breast-cancer): a deep-learning study on the Emory Breast Imaging Dataset** · *team lead, Sep – Nov 2026* · [report (PDF)](https://github.com/Lembachar/embed-breast-cancer/blob/main/report/EMBED_breast_cancer_report.pdf)\
-Malignant vs. benign on 1,757 biopsy-confirmed exams from 1,513 patients. ResNet-50, EfficientNetV2-S and ConvNeXt-Tiny with patient-level 5-fold cross-validation and a locked test set. Test AUC went from 0.776 (images only) to **0.826 (95% CI 0.779–0.872)** with clinical context. Also found an exam-type shortcut in the BI-RADS task, and ran marker-inpainting and Grad-CAM checks. Public sharing approved by the Emory HITI Lab.
+Malignant vs. benign on 1,757 biopsy-confirmed exams from 1,513 patients. ResNet-50, EfficientNetV2-S and ConvNeXt-Tiny with patient-level 5-fold cross-validation and a locked test set. Test AUC went from 0.776 (images only) to **0.826 (95% CI 0.779–0.872)** with clinical context. Also found an exam-type shortcut in the BI-RADS task, and ran marker-inpainting and Grad-CAM checks. Results and figures, including de-identified mammograms, are published with written approval from Dr. Hari Trivedi, Co-director of the Emory HITI Lab, which maintains the EMBED dataset.
 
 <a id="neurosentry"></a>
 **NeuroSentry: intracranial hemorrhage detection on head CT** · *team of four, in progress*\
